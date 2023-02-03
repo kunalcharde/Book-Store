@@ -21,7 +21,6 @@ const BooksDetails = () => {
         <img src={book?.image_url} alt="#" />
       </div>
       <div className='book-description'>
-        
         <h2>Tittle : <span>{book?.title}</span></h2>
         <h2>Description :</h2>
         <p>{book?.description}</p>
